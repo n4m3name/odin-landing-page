@@ -13,18 +13,18 @@ body {
     padding: 16px;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .right {
-    font-size: 18px;
+    font-size: 24pt;
     display: flex;
     align-items: center
 }
 
 ul {
-    font-size: 14px;
+    font-size: 18pt;
     list-style-type: none;
     display: flex;
     gap: 16px;
@@ -41,20 +41,22 @@ ul {
     color: white;
     display: flex;
     align-items: center ;
-    justify-content: center;
+    justify-content: space-between;
     padding-left: 60px
 }
 
 .hi .left .text {
     font-weight: bold;
-    font-size: 30pt;   
+    font-size: 36pt;   
 }
 
 .hi .left .subtext {
     margin-bottom: 8px;
+    font-size: 20pt
 }
 
 .signup {
+    font-size: 14pt;
     padding: 4px 16px;
     background-color: #ff6f00;
     border-radius: 4px;
@@ -76,7 +78,7 @@ ul {
 .mid .title {
     text-align: center;
     font-weight: bold;
-    font-size: 20pt;
+    font-size: 32pt;
     padding: 24px
 }
 
@@ -95,12 +97,12 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 120px;
-    font-size: 10pt;
+    width: 180px;
+    font-size: 14pt;
 }
 
 .item .pic {
-    width: 90px;
+    width: 110px;
     background-color: #000000;
     border: 2px solid #bf5300;
     border-radius: 4px;
@@ -115,14 +117,14 @@ ul {
 }
 
 .quote {
-    font-size: 16pt;
+    font-size: 22pt;
     font-style: italic;
 }
 
 .name {
     display: flex;
     justify-content: flex-end;
-    font-size: 9pt;
+    font-size: 14pt;
     font-weight: bold;
 }
 
@@ -138,7 +140,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 12px;
+    font-size: 12pt;
     gap: 8px
 }
 
@@ -147,7 +149,7 @@ ul {
 }
 
 .footer .signup {
-    font-size: 10px;
+    font-size: 12pt;
     background-color: #1f1f1f;
     border: 1px solid white;
     color: white;
