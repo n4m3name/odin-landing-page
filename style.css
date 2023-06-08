@@ -5,15 +5,20 @@ body {
     padding: 0px;
     background-color: black;
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* header & links */
 
 .header {
     padding: 16px;
+    margin-left: 32px;
+    margin-right: 32px;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
