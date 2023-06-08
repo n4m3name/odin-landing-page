@@ -5,10 +5,6 @@ body {
     padding: 0px;
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: space-between;
 }
 
 .body {
