@@ -1,2 +1,2 @@
 # odin-landing-page
-Odin Project - CSS foundations, landing page project
+Odin Project - Flexbox, landing page project
