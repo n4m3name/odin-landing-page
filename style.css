@@ -1,0 +1,140 @@
+/* style.css */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+/* header & links */
+
+.header {
+    padding: 16px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+/* body, 1st section */
+
+.hi {
+    color: white;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    padding-left: 60px
+}
+
+.hi .left .text {
+    font-weight: bold;
+    font-size: 30pt;   
+}
+
+.hi .left .subtext {
+    margin-bottom: 8px;
+}
+
+.signup {
+    padding: 4px 16px;
+    background-color: #ff6f00;
+    border-radius: 4px;
+    color: white;
+    border: none;
+}
+
+.hi .pic {
+    width: 300px
+}
+
+/* body, 2nd section */
+
+.mid {
+    background-color: #000000;
+    color: white
+}
+
+.mid .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+    padding: 24px
+}
+
+.mid .text {
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 8px
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    font-size: 10pt;
+}
+
+.item .pic {
+    width: 90px;
+    background-color: #000000;
+    border: 2px solid #bf5300;
+    border-radius: 4px;
+    margin: 8px
+}
+
+/* body, 3rd section */
+
+.lo {
+    margin: 64px;
+    color: white
+}
+
+.quote {
+    font-size: 16pt;
+    font-style: italic;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+/* footer */
+
+.footer {
+    margin: 64px;
+    border: 16px;
+    padding: 32px;
+    border-radius: 16px;
+    background: #1f1f1f;
+    color: white;
+    display: flex;
+}
+
+.maintext {
+    
+}
