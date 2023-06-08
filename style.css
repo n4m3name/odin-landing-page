@@ -4,6 +4,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* header & links */
@@ -17,11 +18,13 @@ body {
 }
 
 .right {
+    font-size: 18px;
     display: flex;
     align-items: center
 }
 
 ul {
+    font-size: 14px;
     list-style-type: none;
     display: flex;
     gap: 16px;
@@ -56,7 +59,7 @@ ul {
     background-color: #ff6f00;
     border-radius: 4px;
     color: white;
-    border: none;
+    border: 1px solid #ff6f00;
 }
 
 .hi .pic {
@@ -128,13 +131,27 @@ ul {
 .footer {
     margin: 64px;
     border: 16px;
-    padding: 32px;
-    border-radius: 16px;
-    background: #1f1f1f;
+    padding: 32px 64px;
+    border-radius: 8px;
+    background: #1b1b1b;
     color: white;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    gap: 8px
 }
 
 .maintext {
-    
+    font-weight: bold;
+}
+
+.footer .signup {
+    font-size: 10px;
+    background-color: #1f1f1f;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
