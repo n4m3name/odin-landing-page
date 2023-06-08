@@ -11,6 +11,13 @@ body {
     align-items: space-between;
 }
 
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
 /* header & links */
 
 .header {
