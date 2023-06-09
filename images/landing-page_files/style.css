@@ -35,7 +35,6 @@ ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 0px;
     gap: 16px;
     font-size: medium;
 }
@@ -109,8 +108,7 @@ a {
     }
 
     .left .signup {
-        max-width: 100px;
-        align-self: center
+        max-width: 200px;
     }
 }
 
@@ -235,6 +233,6 @@ a {
     background-color: rgb(23, 23, 23);
     color: white;
     width: 80px;
-    height: 30px;
+    height: auto;
 }
 
