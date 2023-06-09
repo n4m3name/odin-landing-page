@@ -57,11 +57,11 @@ a {
 
 .hi {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 16px;
 }
+
 
 .left .text {
     font-size: 50px;
@@ -144,12 +144,10 @@ a {
 
 .footer {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     gap: 16px;
-    margin-left: 120px;
-    margin-right: 120px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     margin-top: auto;
     background-color: rgb(23, 23, 23);
     border-radius: 8px;
