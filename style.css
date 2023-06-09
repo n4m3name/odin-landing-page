@@ -62,6 +62,18 @@ a {
     gap: 16px;
 }
 
+/* add conditional to wrap item on phones */
+
+@media only screen and (max-width: 480px) {
+    .hi {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+}
+
 
 .left .text {
     font-size: 50px;
@@ -146,15 +158,15 @@ a {
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: auto;
     background-color: rgb(23, 23, 23);
     border-radius: 8px;
     padding: 16px;
     font-size: small;
-    min-width: auto;
 }
+
 
 .maintext {
     font-weight: bold;
