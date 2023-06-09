@@ -1,164 +1,161 @@
 /* style.css */
 
 body {
-    margin: 0px;
-    padding: 0px;
+    min-height: 90vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: space-between;
-}
-
-/* header & links */
-
-.header {
-    padding: 16px;
-    margin-left: 32px;
-    margin-right: 32px;
     color: white;
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 32px;
+}
+
+/* Header */
+
+.header {
+    display: flex;  
     justify-content: space-around;
     align-items: center;
 }
 
-.right {
-    font-size: 24pt;
-    display: flex;
-    align-items: center
-}
-
-ul {
-    font-size: 18pt;
-    list-style-type: none;
-    display: flex;
-    gap: 16px;
-    text-align: center;
+.title {
+    font-size:x-large;
+    font-weight: bold;
+    display: flex;  
+    align-items: center;
 }
 
 .logo {
     width: 50px;
 }
 
-/* body, 1st section */
-
-.hi {
-    color: white;
+ul {
+    list-style-type: none;
     display: flex;
-    align-items: center ;
-    justify-content: space-around;
-    padding-left: 60px
+    gap: 16px;
+    font-size: medium;
 }
 
-.hi .left .text {
-    font-weight: bold;
-    font-size: 36pt;   
-}
-
-.hi .left .subtext {
-    margin-bottom: 8px;
-    font-size: 20pt
-}
-
-.signup {
-    font-size: 14pt;
-    padding: 4px 16px;
-    background-color: #ff6f00;
-    border-radius: 4px;
+a {
+    text-decoration: none;
     color: white;
-    border: 1px solid #ff6f00;
 }
 
-.hi .pic {
-    width: 300px
-}
+/* Body */
 
-/* body, 2nd section */
+/* Main section */
 
-.mid {
-    background-color: #000000;
-    color: white;
+.body {
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
-.mid .title {
-    text-align: center;
+.hi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.left .text {
+    font-size: 50px;
     font-weight: bold;
-    font-size: 32pt;
-    padding: 24px
 }
 
-.mid .text {
-    text-align: center;
+.subtext {
+    margin-bottom: 8px;
 }
+
+.left .signup {
+    border: solid 1px rgb(255, 128, 0);
+    border-radius: 4px;
+    background-color: rgb(255, 128, 0);
+    color: white;
+    padding: 4px 16px;
+}
+
+.pic {
+    width: 300px;
+}
+
+/* Info section */
 
 .items {
     display: flex;
     justify-content: center;
-    gap: 8px
+}
 
+.mid {
+    padding: 32px;
+}
+
+.mid .title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.items {
+    display: flex;
+    gap: 64px;
+    justify-content: center;
 }
 
 .item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 180px;
-    font-size: 14pt;
+}
+
+.item .text {
+    text-align: center;
+    font-size: small;
+    width: 100px;
 }
 
 .item .pic {
-    width: 110px;
-    background-color: #000000;
-    border: 2px solid #bf5300;
+    width: 100px;
+    border: solid 1px rgb(255, 128, 0);
     border-radius: 4px;
-    margin: 8px
 }
 
-/* body, 3rd section */
+/* Quote section */
 
 .lo {
-    flex: auto;
-    display: flex;
-    flex-direction: column;
-    margin: 64px;
-    color: white;
-    align-self: center;
-    justify-content: center;
+    margin: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
 }
 
 .quote {
-    font-size: 22pt;
+    font-size: x-large;
     font-style: italic;
 }
-
 .name {
-    font-size: 14pt;
-    font-weight: bold;
-    align-self: flex-end;
+    text-align: end;
+    margin-right: 32px;
 }
 
-/* footer */
+/* Footer */
 
 .footer {
-    flex: auto;
-    margin: 64px;
-    border: 16px;
-    padding: 32px 64px;
-    border-radius: 8px;
-    background: #1b1b1b;
-    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 12pt;
-    gap: 8px;
-    justify-self: flex-end;
+    gap: 16px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: auto;
+    background-color: rgb(23, 23, 23);
+    border-radius: 8px;
+    padding: 16px;
+    font-size: small;
+    min-width: auto;
 }
 
 .maintext {
@@ -166,11 +163,11 @@ ul {
 }
 
 .footer .signup {
-    font-size: 12pt;
-    background-color: #1f1f1f;
-    border: 1px solid white;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 4px;
+    background-color: rgb(23, 23, 23);
     color: white;
-    display: flex;
-    flex-grow: 0;
-    flex-shrink: 0;
+    width: 80px;
+    height: auto;
 }
+
