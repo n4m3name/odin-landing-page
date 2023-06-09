@@ -62,8 +62,7 @@ a {
     gap: 16px;
 }
 
-/* add conditional to wrap item on phones */
-
+/* wraps item on phones */
 @media only screen and (max-width: 480px) {
     .hi {
         display: flex;
@@ -154,12 +153,29 @@ a {
 
 /* Footer */
 
+/*
 .footer {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     gap: 16px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(23, 23, 23);
+    border-radius: 8px;
+    padding: 16px;
+    font-size: small;
+}
+*/
+
+.footer {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
     margin-top: auto;
     background-color: rgb(23, 23, 23);
     border-radius: 8px;
@@ -167,6 +183,13 @@ a {
     font-size: small;
 }
 
+/* limits width of footer based on screen size */
+@media only screen and (min-width: 1200px) {
+    .footer {
+        width: 1000px;
+        align-self: center;
+    }
+}
 
 .maintext {
     font-weight: bold;
