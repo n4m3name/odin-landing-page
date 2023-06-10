@@ -187,23 +187,6 @@ a {
 
 /* Footer */
 
-/*
-.footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 16px;
-    flex-wrap: wrap;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(23, 23, 23);
-    border-radius: 8px;
-    padding: 16px;
-    font-size: small;
-}
-*/
-
 .footer {
     display: flex;
     justify-content: space-around;
